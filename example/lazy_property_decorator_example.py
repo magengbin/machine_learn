@@ -1,5 +1,5 @@
-import sys
 import tensorflow as tf
+import sys
 sys.path.append('.')
 from util import lazy_property
 

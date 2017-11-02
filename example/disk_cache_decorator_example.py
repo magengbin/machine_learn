@@ -1,3 +1,6 @@
+import tensorflow as tf
+import sys
+sys.path.append('.')
 from util import disk_cache
 
 
