@@ -4,9 +4,9 @@ import tensorflow as tf
 # Build our graph nodes, starting from the inputs
 a = tf.constant(5, name="input_a")
 b = tf.constant(3, name="input_b")
-c = tf.multiply(a,b, name="mul_c")
-d = tf.add(a,b, name="add_d")
-e = tf.add(c,d, name="add_e")
+c = tf.multiply(a, b, name="mul_c")
+d = tf.add(a, b, name="add_d")
+e = tf.add(c, d, name="add_e")
 
 # Open up a TensorFlow Session
 sess = tf.Session()
